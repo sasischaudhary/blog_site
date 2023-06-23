@@ -90,7 +90,7 @@ export default function AdminBlogs() {
                   color="warning"
                   onClick={() => handleDelete(data.id)}
                 >
-                  {isDeleting === data.id ? "deleting...." : "delete"}
+                  {isDeleting === data.id ? "deleting........." : "delete"}
                 </Button>
               </CardActions>
             </Card>
